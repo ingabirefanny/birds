@@ -28,6 +28,7 @@ class bird3 : AppCompatActivity() {
         }
         Picasso
             .get()
+
             .load("https://images.unsplash.com/photo-1591608971362-f08b2a75731a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmlyZHN8ZW58MHx8MHx8fDA%3D")
             .into(binding.imageView6)
     }
